@@ -11,23 +11,23 @@ export default function Home() {
       </Head>
       <Sidebar />
       <main className={styles.main}>
-        <h1>Mission Control Dashboard</h1>
+        <h1 className={styles.title}>Mission Control Dashboard</h1>
         <div className={styles.panes}>
-          <section>
-            <h2>Lead Hunter</h2>
-            <p>Lead intake and tracking</p>
+          <section className={styles.section}>
+            <h2 className={styles.heading}>Lead Hunter</h2>
+            <p className={styles.paragraph}>Lead intake and tracking</p>
           </section>
-          <section>
-            <h2>Deal Closer</h2>
-            <p>Follow-ups, call booking</p>
+          <section className={styles.section}>
+            <h2 className={styles.heading}>Deal Closer</h2>
+            <p className={styles.paragraph}>Follow-ups, call booking</p>
           </section>
-          <section>
-            <h2>Calendar Keeper</h2>
-            <p>Appointments & reminders</p>
+          <section className={styles.section}>
+            <h2 className={styles.heading}>Calendar Keeper</h2>
+            <p className={styles.paragraph}>Appointments & reminders</p>
           </section>
-          <section>
-            <h2>Scoreboard</h2>
-            <p>Daily/weekly business stats</p>
+          <section className={styles.section}>
+            <h2 className={styles.heading}>Scoreboard</h2>
+            <p className={styles.paragraph}>Daily/weekly business stats</p>
           </section>
         </div>
       </main>
